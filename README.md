@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @nitrotap Kartik.
+- 👋 Hi, I’m Kartik (@nitrotap).
 - 👀 I’m interested in data entry, android app development, and database management.
 - 🌱 I’m currently learning JavaScript on HyperSkill, and I'm taking SQL Bootcamps. 
 - 📫 Please message me through GitHub to reach out to me. 
