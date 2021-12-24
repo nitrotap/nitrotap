@@ -154,7 +154,9 @@ header h1 a:hover {
   margin: 0 auto 35px auto;
 }
 
-.project-card {
+
+
+.project-card, .project {
   margin: 20px;
   background: var(--secondary-color);
   color: var(--primary-color);
@@ -168,6 +170,13 @@ header h1 a:hover {
   text-align: center;
   border: 3px solid;
   border-radius: 15px;
+}
+
+.project-card:hover {
+  background: var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
 }
 
 .project-card h3 {
@@ -209,8 +218,15 @@ header h1 a:hover {
   margin: 0 auto 35px auto;
 }
 
-/* START footer styles */
+.contact-card:hover {
+  background: var(--primary-color);
+  color: var(--primary-color);
+  border-radius: 15px;
+  text-shadow: none;
+}
 
+/* END contact styles*/
+/* START footer styles */
 footer {
   background: var(--secondary-color);
   width: 100%;
@@ -316,15 +332,13 @@ footer div {
     border-bottom: 3px solid;
   }
 
-  #about-me .flex-row {
-    flex-wrap: wrap;
-  }
 
   .center-title {
     width: auto;
   }
 
   #about-me .flex-row {
+    flex-wrap: wrap;
     width: 100%;
     margin: 0px;
     border: rgba(0, 0, 0, 0.5) solid 5px;
