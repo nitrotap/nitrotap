@@ -31,6 +31,7 @@ body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
+
 /* START header styles */
 header {
   background-color: var(--primary-color);
@@ -87,6 +88,7 @@ header h1 {
   color: var(--primary-color);
   margin: 20px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
 }
 
 header h1 a:hover {
@@ -94,6 +96,8 @@ header h1 a:hover {
   color: var(--secondary-color);
   border-radius: 15px;
   text-shadow: none;
+  padding: 10px 10px;
+
 }
 /* END header styles */
 
@@ -170,36 +174,27 @@ header h1 a:hover {
   text-align: center;
   border: 3px solid;
   border-radius: 15px;
+  font-weight: bold;
 }
 
 .project-card:hover {
   background: var(--primary-color);
-  color: var(--primary-color);
+  color: var(--secondary-color);
   border-radius: 15px;
   text-shadow: none;
 }
 
 .project-card h3 {
   font-size: 28px;
+  padding-bottom: 10px;
 }
 
 .project-card p {
   font-size: 17px;
   line-height: 1.3;
+  padding-bottom: 15px;
 }
 
-.project-img {
-  margin: 20px;
-  background: var(--secondary-color);
-  color: var(--primary-color);
-  padding-bottom: 50px;
-  background-color: var(--secondary-color);
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-left: 40px;
-  padding-right: 40px;
-}
 /* END project styles */
 
 /* START contact styles */
@@ -230,7 +225,7 @@ header h1 a:hover {
 footer {
   background: var(--secondary-color);
   width: 100%;
-  padding: 40px 35px;
+  padding: 5px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
