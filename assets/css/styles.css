@@ -14,7 +14,7 @@
 * {
   /* all element styles here */
   box-sizing: border-box;
-  
+
   background-color: #c0ebb2;
 
   margin: 0;
@@ -164,58 +164,57 @@ header h1 a:hover {
 }
 
 .project-img {
-    margin: 20px;
-    background: var(--secondary-color);
-    color: var(--primary-color);
-    padding-bottom: 50px;
-    background-color: var(--secondary-color);
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-left: 40px;
-    padding-right: 40px;
+  margin: 20px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  padding-bottom: 50px;
+  background-color: var(--secondary-color);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /* END project styles */
 
 /* START contact styles */
 .contact-card {
-    font-size: 36px;
-    color: var(--primary-color);
-    background-color: var(--secondary-color);
-    flex: 1;
-    border-bottom: 1px solid;
-    display: flex;
-    justify-content: center;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 100px;
-    background-color: var(--secondary-color);
+  font-size: 36px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  flex: 1;
+  border-bottom: 1px solid;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 100px;
+  background-color: var(--secondary-color);
 }
-
 
 /* START footer styles */
 
 footer {
-    background: var(--secondary-color);
-    width: 100%;
-    padding: 40px 35px;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  }
-  
-  footer h2 {
-    color: var(--primary-color);
-    font-size: 30px;
-    margin: 0;
-  }
-  
-  footer div {
-    line-height: 1.5;
-    text-align: right;
-  }
-  
-  /* END footer styles */
+  background: var(--secondary-color);
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  color: var(--primary-color);
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+/* END footer styles */
 
 /* START utility styles */
 .flex-row {
@@ -239,3 +238,43 @@ footer {
 }
 
 /* END utility styles */
+
+@media screen and (max-width: 920px) {
+  header {
+    padding-bottom: 0;
+    justify-content: center;
+    padding: 5px 5px;
+    padding-bottom: 5px;
+  }
+
+  header h1 {
+    width: 100%;
+    text-align: center;
+  }
+
+  header nav ul {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: center;
+  }
+
+  header nav ul li a {
+    font-size: 20px;
+  }
+
+  footer h2,
+  footer div {
+    text-align: center;
+    width: 100%;
+  }
+
+  .projects {
+    flex-wrap: wrap;
+  }
+
+  .section-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+  }
+}
