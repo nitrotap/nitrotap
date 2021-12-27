@@ -115,7 +115,7 @@ header h1 a:hover {
 
 .about-me h2 {
   font-size: 48px;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: var(--primary-color);
   border-right: 3px solid;
   text-align: center;
@@ -156,13 +156,8 @@ header h1 a:hover {
   text-align: center;
   margin: 0 auto 35px auto;
   width: 50%;
-  text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
-}
-
-.hero h3 {
-  font-size: 28px;
-  padding-bottom: 10px;
 }
 
 .hero button {
@@ -199,6 +194,9 @@ header h1 a:hover {
 
 .hero-card h3 {
   font-size: 48px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding-bottom: 10px;
+
 }
 
 /* START project styles */
@@ -266,6 +264,7 @@ header h1 a:hover {
 .project-card h3 {
   font-size: 28px;
   padding-bottom: 10px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .project-card p {
