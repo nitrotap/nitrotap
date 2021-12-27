@@ -110,7 +110,7 @@ header h1 a:hover {
 /* START about me styles */
 #about-me .flex-row {
   width: 75%;
-  margin: auto auto auto auto;
+  margin: auto auto 35px auto;
   border: rgba(0, 0, 0, 0.5) solid 5px;
   border-radius: 15px;
   background-color: var(--secondary-color);
@@ -143,6 +143,12 @@ header h1 a:hover {
   overflow: auto;
 }
 
+#about-me img {
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+}
+
 /* END about me styles */
 
 .center-title {
@@ -164,7 +170,17 @@ header h1 a:hover {
   margin: 0 auto 35px auto;
 }
 
+.project-card img {
+  width: 200px;
+  height: 200px;
+}
 
+.project-card:hover img {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .project-card, .project {
   margin: 20px;
@@ -188,6 +204,7 @@ header h1 a:hover {
   color: var(--secondary-color);
   border-radius: 15px;
   text-shadow: none;
+
 }
 
 .project-card h3 {
@@ -271,7 +288,7 @@ footer div {
 }
 
 .secondary-border {
-  border-color: var(--tertiary-color);
+  border-color: var(--secondary-color);
 }
 
 /* END utility styles */
@@ -310,6 +327,13 @@ footer div {
     flex-wrap: wrap;
   }
 
+  .project-card:hover img {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
   #about-me p,
   h2 {
     padding-left: 10px;
@@ -344,7 +368,6 @@ footer div {
     margin: 0px;
     border: rgba(0, 0, 0, 0.5) solid 5px;
     border-radius: 15px;
-    background-color: #c0ebb2;
     display: flex;
     justify-content: center;
   }
