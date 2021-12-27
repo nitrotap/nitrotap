@@ -103,7 +103,7 @@ header h1 a:hover {
 /* END header styles */
 
 /* START about me styles */
-#about-me .flex-row {
+.about-me .flex-row {
   width: 75%;
   margin: auto auto 35px auto;
   border: rgba(0, 0, 0, 0.5) solid 5px;
@@ -113,7 +113,7 @@ header h1 a:hover {
   align-items: center;
 }
 
-#about-me h2 {
+.about-me h2 {
   font-size: 48px;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   color: var(--primary-color);
@@ -127,7 +127,7 @@ header h1 a:hover {
   border-bottom-left-radius: 15px;
 }
 
-#about-me p {
+.about-me p {
   font-size: 24px;
   color: var(--primary-color);
   border-bottom: #4a4c4f;
@@ -140,7 +140,7 @@ header h1 a:hover {
   overflow: auto;
 }
 
-#about-me img {
+.about-me img {
   padding: 10px;
   width: 400px;
   height: 300px;
@@ -356,11 +356,11 @@ footer div {
 }
 
 @media screen and (max-width: 1200px) {
-  #about-me .flex-row {
+  about-me .flex-row {
     flex-direction: column;
   }
 
-  #about-me h2 {
+  .about-me h2 {
     border-right: 0px;
   }
 }
@@ -406,14 +406,14 @@ footer div {
     flex-wrap: wrap;
   }
 
-  #about-me p,
+  .about-me p,
   h2 {
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 10px;
   }
 
-  #about-me h2 {
+  .about-me h2 {
     font-size: 48px;
     text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
     color: var(--primary-color);
@@ -433,7 +433,7 @@ footer div {
     width: auto;
   }
 
-  #about-me .flex-row {
+  .about-me .flex-row {
     flex-wrap: wrap;
     width: 100%;
     margin: 0px;
