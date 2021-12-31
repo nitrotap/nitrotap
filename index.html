@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/styles.css">
-
     <title>@nitrotap - Kartik Jevaji</title>
 </head>
 
@@ -19,10 +18,10 @@
         <nav>
             <ul>
                 <li>
-                    <a href="#about-me">About Me</a>
+                    <a href="#name">About Me</a>
                 </li>
                 <li>
-                    <a href="#my-projects">Projects</a>
+                    <a href="#about-me">Projects</a>
                 </li>
                 <li>
                     <a href="#my-contact-info">Contact</a>
@@ -31,7 +30,7 @@
         </nav>
     </header>
 
-    <div class="center-title name">
+    <div id="name" class="center-title name">
         <h1>
             Kartik Jevaji
         </h1>
@@ -61,25 +60,26 @@
             Projects
         </h2>
 
-        <article class="hero">
+        <!-- hero project -->
+        <article class="hero flex-row">
             <button type="button">
                 <a href="https://nitrotap.github.io/run-buddy/">
-                    <img src="./assets/images/run-buddy-screenshot.png" 
+                    <img src="./assets/images/run-buddy-full-screenshot-wide.jpg" 
                     alt="run buddy site screenshot" />
                 </a>
+                <div class="hero-card">
+                    <h3>
+                        <a href="https://nitrotap.github.io/run-buddy/">Run Buddy</a>
+                    </h3>
+                    <br />
+                    <p>
+                        Run Buddy uses flexboxes and media queries to exemplify advanced css techniques.
+                    </p>
+                </div>
             </button>
-            
-            <div class="hero-card">
-                <h3>
-                    <a href="https://nitrotap.github.io/run-buddy/">Run Buddy</a>
-                </h3>
-                <br />
-                <p>
-                    Run Buddy uses flexboxes and media queries to exemplify advanced css techniques.
-                </p>
-            </div>
         </article>
 
+        <!-- other projects -->
         <div class="projects flex-row">
             <!-- first project -->
             <article class="project-card">

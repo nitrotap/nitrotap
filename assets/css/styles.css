@@ -66,11 +66,10 @@ header nav ul li a {
   padding: 20px 20px;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  color:white;
-  background-color: rgb(74, 76, 79, .5);
+  color: white;
+  background-color: rgb(74, 76, 79, 0.5);
   text-decoration: none;
   margin: 10px;
-
 }
 
 header nav ul li a:hover {
@@ -83,15 +82,13 @@ header nav ul li a:hover {
 
 header h1 a {
   font-weight: bold;
-  font-size:calc(36px + 1.75vw);
+  font-size: calc(36px + 1.75vw);
   color: var(--secondary-color);
   margin: 20px;
   padding: 10px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: rgb(74, 76, 79, .1);
+  background-color: rgb(74, 76, 79, 0.1);
   text-decoration: none;
-
-
 }
 
 header h1 a:hover {
@@ -168,31 +165,32 @@ header h1 a:hover {
   font-size: 36px;
 }
 
+.hero {
+  margin: 0 auto 35px auto;
+  display: flex;
+  border-radius: 10px;
+  width: 50%;
+  height: 120%;
+  position: relative;
+  text-align: center;
+  float: left;
+}
+
 .hero button {
-  width: 70%;
-  height: 1200px;
+  width: 100%;
   margin: 20px;
+  height: 1200px;
 }
 
 .hero button img {
   width: 100%;
   height: 100%;
-}
-
-.hero {
-  margin: 0 auto 35px auto;
-  display: flex;
-  border: 3px solid var(--primary-color);
-  border-radius: 10px;
-  width: 80%;
-  float: left;
-
+  opacity: 0.5;
 }
 
 .hero-card {
   font-size: 36px;
   color: var(--primary-color);
-  background-color: var(--secondary-color);
   text-align: center;
   margin: 0 auto 35px auto;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
@@ -200,12 +198,34 @@ header h1 a:hover {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+  color: var(--primary-color);
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero button:hover img {
+  opacity: 1;
 }
 
 .hero-card h3 {
   font-size: 48px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  padding-bottom: 10px;
+  padding: 10px;
+  background-color: rgb(255, 255, 255, 1);
+}
+
+.hero-card a {
+  text-decoration: none;
+  color: black;
+}
+.hero-card p {
+  padding: 20px;
+  background-color: rgb(255, 255, 255, 1);
+  font-weight: 500;
 }
 
 /* START project styles */
@@ -285,6 +305,10 @@ header h1 a:hover {
 /* END project styles */
 
 /* START contact styles */
+#my-contact-info {
+  clear:both;
+}
+
 .contact-card {
   font-size: 36px;
   color: var(--primary-color);
@@ -353,16 +377,14 @@ footer div {
 @media screen and (max-width: 1700px) {
   .hero button {
     width: 70%;
-    height: 400px;
+    height: 70%;
     margin: 20px;
   }
 }
 
 @media screen and (max-width: 1400px) {
   .hero button {
-    width: 70%;
-    height: 400px;
-    margin: 20px;
+    margin: 10px;
   }
 }
 
@@ -466,5 +488,20 @@ footer div {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+  }
+
+  .hero button {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  .hero-card h3 {
+    font-size: medium;
+  }
+
+  .hero-card {
+    font-size: small;
   }
 }
