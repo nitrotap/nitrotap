@@ -1,3 +1,1 @@
-remove the border for the github and linkedin site
-
-make run buddy smaller
+all done

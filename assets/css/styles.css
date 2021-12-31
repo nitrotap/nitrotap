@@ -461,6 +461,10 @@ footer div {
     width: 100%;
   }
 
+  nav ul a {
+    display: inline-block;
+  }
+
 
 }
 
