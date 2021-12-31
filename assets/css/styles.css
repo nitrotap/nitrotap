@@ -1,10 +1,7 @@
 :root {
   /* insert variables here*/
-  /* fonts, etc */
   --primary-rgb: rgb(74, 76, 79);
   --primary-color: #4a4c4f;
-
-  /* box backgrounds, etc */
 
   --secondary-rgb: rgb(192, 235, 178);
   --secondary-color: white;
@@ -14,8 +11,6 @@
 
   --quaternary-color: rgba(88, 75, 67, 0.678);
 
-  /*
-  --hover-color: #c0ebb2; */
   --hover-color: rgb(224, 224, 224);
 }
 * {
@@ -23,7 +18,7 @@
   box-sizing: border-box;
   /*
   background-color: var(--quaternary-color);*/
-
+  border-radius: 15px;
   margin: 0;
   padding: 0;
 }
@@ -36,24 +31,21 @@ body {
 
 /* START header styles */
 header {
-  background-color: var(--primary-color);
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  background-color: var(--secondary-color);
+  background-image: url("../images/mt-background-2.jpg");
   background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-position: 80%;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: center;
   z-index: 9999;
-  margin: 20px 45px;
-  margin-bottom: 50px;
-  /*
-    background-image:;
-    */
+  margin: 0 auto 35px auto;
+
+  padding: 20px;
 }
 
 header nav {
@@ -72,9 +64,13 @@ header nav ul {
 
 header nav ul li a {
   padding: 20px 20px;
-  font-weight: lighter;
   font-size: 1.55vw;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  color:white;
+  background-color: rgb(74, 76, 79, .5);
+  text-decoration: none;
+  margin: 10px;
+
 }
 
 header nav ul li a:hover {
@@ -85,12 +81,17 @@ header nav ul li a:hover {
   border: var(--primary-color) solid 3px;
 }
 
-header h1 {
+header h1 a {
   font-weight: bold;
-  font-size: 36px;
-  color: var(--primary-color);
+  font-size:calc(36px + 1.75vw);
+  color: var(--secondary-color);
   margin: 20px;
+  padding: 10px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: rgb(74, 76, 79, .1);
+  text-decoration: none;
+
+
 }
 
 header h1 a:hover {
@@ -106,8 +107,7 @@ header h1 a:hover {
 .about-me .flex-row {
   width: 75%;
   margin: auto auto 35px auto;
-  border: rgba(0, 0, 0, 0.5) solid 5px;
-  border-radius: 15px;
+  border: rgba(0, 0, 0, 0) solid 5px;
   background-color: var(--secondary-color);
   justify-content: center;
   align-items: center;
@@ -117,14 +117,13 @@ header h1 a:hover {
   font-size: 48px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: var(--primary-color);
+  border-radius: 0px;
   border-right: 3px solid;
   text-align: center;
   padding: 20px;
   display: flex;
   align-items: center;
   background-color: var(--secondary-color);
-  border-top-left-radius: 15px;
-  border-bottom-left-radius: 15px;
 }
 
 .about-me p {
@@ -142,8 +141,8 @@ header h1 a:hover {
 
 .about-me img {
   padding: 10px;
-  width: 400px;
-  height: 300px;
+  width: 300px;
+  height: 200px;
 }
 
 /* END about me styles */
@@ -158,6 +157,15 @@ header h1 a:hover {
   width: 50%;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
+}
+
+.name {
+  border-top: 0px;
+  border-right: 0px;
+  border-left: 0px;
+  border-radius: 0px;
+  padding-bottom: 15px;
+  font-size: 36px;
 }
 
 .hero button {
@@ -177,6 +185,8 @@ header h1 a:hover {
   border: 3px solid var(--primary-color);
   border-radius: 10px;
   width: 80%;
+  float: left;
+
 }
 
 .hero-card {
@@ -196,7 +206,6 @@ header h1 a:hover {
   font-size: 48px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   padding-bottom: 10px;
-
 }
 
 /* START project styles */
@@ -451,7 +460,6 @@ footer div {
     flex-wrap: wrap;
     flex-direction: column;
   }
-
 
   .hero {
     display: flex;
