@@ -101,47 +101,56 @@ header h1 a:hover {
 /* END header styles */
 
 /* START about me styles */
-.about-me .flex-row {
-  width: 79%;
-  margin: auto auto 35px auto;
-  border: rgba(0, 0, 0, 0) solid 5px;
-  background-color: var(--secondary-color);
+.about-section {
+  display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
+  margin-bottom: 35px;
 }
 
-.about-me h2 {
+.about-me-title {
+  font-size: xx-large;
+  float: left;
   font-size: 48px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   color: var(--primary-color);
-  border-radius: 0px;
+  background-color: var(--secondary-color);
   border-right: 3px solid;
+  text-align: right;
+  margin: 0 auto 35px auto;
+  width: 20%;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+.about-me-title h3 {
   text-align: center;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  background-color: var(--secondary-color);
 }
 
-.about-me p {
-  font-size: 24px;
-  color: var(--primary-color);
-  border-bottom: #4a4c4f;
+.about-me-text {
+  width: 60%;
+  font-size: calc(20px + 0.5vw);
+  display: flex;
+  justify-content: center;
   text-align: left;
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  padding: 20px;
-  background-color: var(--secondary-color);
-  overflow: auto;
+  padding-left: 20px;  
 }
 
-.about-me img {
-  padding: 10px;
-  width: 300px;
+.kartik-image {
+  float: right;
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.kartik-image img {
+  width: 200px;
   height: 200px;
 }
-
 /* END about me styles */
 
 .center-title {
@@ -407,6 +416,10 @@ footer div {
   .project-card {
     font-size: calc(12px + 0.1vw);
   }
+
+  .project-title {
+    font-size: calc(24px + 2vw);
+  }
 }
 
 @media screen and (max-width: 980px) {
@@ -433,44 +446,31 @@ footer div {
     font-size: 20px;
   }
 
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me-title {
+    width: 100%;
+    border:rgba(0, 0, 0, 0.5) solid 3px;
+  }
+
+  .about-me-text {
+    width: 100%;
+    padding-bottom: 25px;
+  }
+
+  .kartik-image img {
+    width: 300px;
+    height: 300px;
+  }
+  
+
   footer h4,
   footer div {
     text-align: center;
     width: 100%;
-  }
-
-  .about-me p,
-  h2 {
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 10px;
-  }
-
-  .about-me h2 {
-    font-size: 48px;
-    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
-    color: var(--primary-color);
-    border-right: 0px;
-    text-align: center;
-    padding: 20px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    background-color: var(--secondary-color);
-    border-top-left-radius: 0px;
-    border-bottom-left-radius: 0px;
-    border-bottom: 3px solid;
-  }
-
-  .about-me .flex-row {
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0px;
-    border: rgba(0, 0, 0, 0.5) solid 5px;
-    border-radius: 15px;
-    display: flex;
-    justify-content: center;
-    margin: 0 auto 35px auto;
   }
 
   .project-card {
