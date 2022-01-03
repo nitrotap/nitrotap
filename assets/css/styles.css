@@ -284,26 +284,27 @@ header h1 a:hover {
 
 .project-card {
   font-size: calc(16px + 0.1vw);
-  text-align: center;
+  text-align: left;
   margin: 0 auto 35px auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
   position: absolute;
-  bottom: 8px;
-  top: 50%;
-  left: 50%;
+  top: 65%;
+  left: 24%;
   transform: translate(-50%, -50%);
-  width: 80%;
+  width: 40%;
   background-color: rgb(1,1,1,0);
+  background-color: rgb(	74, 76, 79, 1);
+  padding: 10px;
+
 }
 
 .project-card h3 {
   font-size: xx-large;
-  padding: 10px;
-  background-color: rgb(	74, 76, 79, .5);
-  margin: 20px;
+  padding: 5px;
+  width: 100%;
 }
 
 .project-card a {
@@ -312,12 +313,12 @@ header h1 a:hover {
 }
 
 .project-card p {
-  padding: 20px;
+  padding: 5px;
   background-color: #4a4c4f;
   background-color: rgb(	74, 76, 79, .5);
   color: var(--secondary-color);
   font-weight: 500;
-  width: 45%;
+  width: 100%;
 }
 
 /* END project styles */
@@ -345,6 +346,12 @@ header h1 a:hover {
 .contact-card button a img {
   width: 400px;
 }
+
+#my-contact-info .project-title {
+  height: 200px;
+  padding-top: 40px;
+}
+
 /* END contact styles*/
 /* START footer styles */
 footer {
@@ -412,6 +419,10 @@ footer div {
 
   .project-title {
     font-size: calc(24px + 2vw);
+  }
+
+  .contact-card button a img {
+    width: 30vw;
   }
 }
 
@@ -497,6 +508,11 @@ footer div {
 
   .contact {
     flex-direction: column;
+  }
+
+  #my-contact-info .project-title {
+    height: auto;
+    padding-top: 0px;
   }
 }
 
