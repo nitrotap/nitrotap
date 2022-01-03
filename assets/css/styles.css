@@ -3,11 +3,10 @@
   --primary-rgb: rgb(74, 76, 79);
 
   --primary-color: #4a4c4f;
-  --primary-color:#14213D;
+  --primary-color: #14213d;
 
   --secondary-rgb: rgb(192, 235, 178);
   --secondary-color: rgb(255, 255, 255);
-
 
   --tertiary-rgb: rgb(65, 128, 45);
   --tertiary-color: #2d4780;
@@ -55,16 +54,14 @@ header {
   z-index: 9999;
   margin: 0 auto 35px auto;
   padding: 20px;
-  background-color: rgb(1,1,1,0);
-
+  background-color: rgb(1, 1, 1, 0);
 }
 
 header nav {
   display: flex;
   align-items: center;
   margin: 10px;
-  background-color: rgb(1,1,1,0);
-
+  background-color: rgb(1, 1, 1, 0);
 }
 
 header nav ul {
@@ -73,8 +70,7 @@ header nav ul {
   justify-content: space-between;
   align-items: center;
   list-style: none;
-  background-color: rgb(1,1,1,0);
-
+  background-color: rgb(1, 1, 1, 0);
 }
 
 header nav ul li a {
@@ -96,7 +92,7 @@ header nav ul li a:hover {
 }
 
 header h1 {
-  background-color: rgb(1,1,1,0);
+  background-color: rgb(1, 1, 1, 0);
 }
 
 header h1 a {
@@ -234,11 +230,11 @@ header h1 a:hover {
 }
 
 .project-first button:hover h3 {
-  background-color: rgb(	74, 76, 79, .8);
+  background-color: rgb(74, 76, 79, 0.8);
 }
 
 .project-first button:hover p {
-  background-color: rgb(	74, 76, 79, .8);
+  background-color: rgb(74, 76, 79, 0.8);
 }
 /* END HERO STYLES */
 
@@ -275,11 +271,11 @@ header h1 a:hover {
 }
 
 .project button:hover h3 {
-  background-color: rgb(	74, 76, 79, .8);
+  background-color: rgb(74, 76, 79, 0.8);
 }
 
 .project button:hover p {
-  background-color: rgb(	74, 76, 79, .8);
+  background-color: rgb(74, 76, 79, 0.8);
 }
 
 .project-card {
@@ -295,15 +291,14 @@ header h1 a:hover {
   left: 43%;
   transform: translate(-50%, -50%);
   width: 75%;
-  background-color: rgb(1,1,1,0);
-  background-color: rgb(	74, 76, 79, 1);
+  background-color: rgb(1, 1, 1, 0);
+  background-color: rgb(74, 76, 79, 1);
   padding: 10px;
-
 }
 
 .project-card h3 {
   font-size: xx-large;
-  font-size: calc(24px + .75vw);
+  font-size: calc(24px + 0.75vw);
   padding: 5px;
   width: 100%;
 }
@@ -316,7 +311,7 @@ header h1 a:hover {
 .project-card p {
   padding: 5px;
   background-color: #4a4c4f;
-  background-color: rgb(	74, 76, 79, .5);
+  background-color: rgb(74, 76, 79, 0.5);
   color: var(--secondary-color);
   font-weight: 500;
   width: 100%;
@@ -409,7 +404,7 @@ footer div {
 
 .shadow {
   background-color: rgb(255, 204, 141, 0.3);
-  background-color: #14213D;
+  background-color: #14213d;
 }
 /* END utility styles */
 
