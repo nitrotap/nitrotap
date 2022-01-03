@@ -362,6 +362,7 @@ footer {
   justify-content: space-between;
   flex-wrap: wrap;
   border-top: 3px solid;
+  border-radius: 0;
 }
 
 footer h4 {
@@ -423,6 +424,13 @@ footer div {
 
   .contact-card button a img {
     width: 30vw;
+  }
+
+  .project-card {
+    width: 80%;
+    flex-direction: column;
+    left: 50%;
+    top: 60%;
   }
 }
 
@@ -533,6 +541,8 @@ footer div {
   .project-card {
     width: 80%;
     flex-direction: column;
+    left: 50%;
+    top: 60%;
   }
 
   nav ul a {
