@@ -212,7 +212,7 @@ header h1 a:hover {
   margin: 0 auto 35px auto;
   display: flex;
   border-radius: 10px;
-  width: 95%;
+  width: 100%;
   position: relative;
   text-align: center;
 }
@@ -283,7 +283,7 @@ header h1 a:hover {
 }
 
 .project-card {
-  font-size: calc(16px + 0.1vw);
+  font-size: calc(16px + 0.5vw);
   text-align: left;
   margin: 0 auto 35px auto;
   display: flex;
@@ -292,9 +292,9 @@ header h1 a:hover {
   align-items: flex-start;
   position: absolute;
   top: 65%;
-  left: 24%;
+  left: 43%;
   transform: translate(-50%, -50%);
-  width: 40%;
+  width: 75%;
   background-color: rgb(1,1,1,0);
   background-color: rgb(	74, 76, 79, 1);
   padding: 10px;
@@ -303,6 +303,7 @@ header h1 a:hover {
 
 .project-card h3 {
   font-size: xx-large;
+  font-size: calc(24px + .75vw);
   padding: 5px;
   width: 100%;
 }
@@ -414,10 +415,6 @@ footer div {
 
 /* START MEDIA QUERIES */
 @media screen and (max-width: 1280px) {
-  .project-card {
-    font-size: calc(12px + 0.1vw);
-  }
-
   .project-title {
     font-size: calc(24px + 2vw);
   }
@@ -427,6 +424,7 @@ footer div {
   }
 
   .project-card {
+    font-size: calc(16px + 0.55vw);
     width: 80%;
     flex-direction: column;
     left: 50%;
@@ -476,6 +474,7 @@ footer div {
   .about-me-text {
     width: 100%;
     padding-bottom: 25px;
+    padding-left: 10px;
   }
 
   .kartik-image img {
@@ -490,7 +489,7 @@ footer div {
   }
 
   .project-card {
-    font-size: calc(16px + 0.1vw);
+    font-size: calc(16px + 0.5vw);
   }
 
   .projects {
