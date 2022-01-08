@@ -92,6 +92,8 @@ header nav ul li a:hover {
   border-radius: 15px;
   text-shadow: none;
   border: var(--primary-color) solid 3px;
+  transition: all .5s ease;
+
 }
 
 header h1 {
@@ -115,6 +117,7 @@ header h1 a:hover {
   border-radius: 15px;
   text-shadow: none;
   padding: 10px;
+  transition: all .5s ease;
 }
 /* END header styles */
 
@@ -227,6 +230,7 @@ header h1 a:hover {
 
 .project-hero button:hover img {
   opacity: 0.5;
+  transition: all .5s ease;
 }
 
 .project-hero button:hover h3 {
@@ -268,6 +272,7 @@ header h1 a:hover {
 
 .project button:hover img {
   opacity: 0.7;
+  transition: all .5s ease;
 }
 
 .project button:hover h3 {
