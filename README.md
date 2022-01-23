@@ -14,4 +14,8 @@ I’m interested in data entry, android app development, and full stack web deve
 Reach out to me about Java, Full Stack Web Development, and Raspberry Pi.   
 Thanks for stopping by :)
 
+![badmath](https://img.shields.io/github/languages/top/nitrotap/nitrotap)
+
+
+
 &copy; Kartik Jevaji
