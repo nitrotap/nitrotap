@@ -2,12 +2,12 @@
   /* insert variables here*/
   --primary-rgb: rgb(74, 76, 79);
 
-  --primary-color: #4a4c4f;
+  /*--primary-color: #4a4c4f;*/
   --primary-color: #14213d;
 
   --secondary-rgb: rgb(192, 235, 178);
 
-  --secondary-color: #fbe1b1;
+ /* --secondary-color: #fbe1b1;*/
   --secondary-color: rgb(255, 255, 255);
 
   --tertiary-rgb: rgb(65, 128, 45);
@@ -131,15 +131,12 @@ header h1 a:hover {
 }
 
 .about-me-title {
-  font-size: xx-large;
   float: left;
   font-size: 48px;
   color: var(--primary-color);
-  border-right: 3px solid;
   text-align: right;
-  margin: 0 auto 0px auto;
+  margin: 0 auto 0 auto;
   width: 20%;
-  border-radius: 0;
   align-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -157,6 +154,8 @@ header h1 a:hover {
   justify-content: center;
   text-align: left;
   padding-left: 50px;
+  border-left: 3px solid;
+  border-radius: 0;
 }
 
 .kartik-image {
@@ -192,16 +191,16 @@ header h1 a:hover {
   width: 20%;
   border-radius: 0;
   align-items: center;
-  height: 1600px;
+  height: 1200px;
   padding-right: 20px;
   padding-top: 100px;
 }
 
 .name {
-  border-top: 0px;
-  border-right: 0px;
-  border-left: 0px;
-  border-radius: 0px;
+  border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-radius: 0;
   padding-bottom: 15px;
   font-size: 36px;
 }
@@ -296,13 +295,11 @@ header h1 a:hover {
   left: 43%;
   transform: translate(-50%, -50%);
   width: 75%;
-  background-color: rgb(1, 1, 1, 0);
   background-color: rgb(74, 76, 79, 1);
   padding: 10px;
 }
 
 .project-card h3 {
-  font-size: xx-large;
   font-size: calc(24px + 0.75vw);
   padding: 5px;
   width: 100%;
@@ -334,7 +331,7 @@ header h1 a:hover {
 .contact-card {
   font-size: 36px;
   color: var(--primary-color);
-  border: 0px solid;
+  border: 0 solid;
   border-radius: 15px;
   display: flex;
   justify-content: center;
@@ -407,7 +404,7 @@ footer div {
 }
 
 .shadow {
-  background-color: rgb(255, 204, 141, 0.3);
+  /*background-color: rgb(255, 204, 141, 0.3);*/
   background-color: #14213d;
 }
 /* END utility styles */
@@ -433,11 +430,9 @@ footer div {
 
 @media screen and (max-width: 980px) {
   header {
-    padding-bottom: 0;
     justify-content: center;
-    padding: 5px 5px;
-    padding-bottom: 25px;
-    margin: 0px;
+    padding: 5px 5px 25px;
+    margin: 0;
   }
 
   header h1 {
@@ -509,7 +504,7 @@ footer div {
     width: 100%;
     border: #4a4c4f 3px solid;
     text-align: center;
-    padding-top: 0%;
+    padding-top: 0;
   }
 
   .contact {
@@ -518,7 +513,7 @@ footer div {
 
   #my-contact-info .project-title {
     height: auto;
-    padding-top: 0px;
+    padding-top: 0;
   }
 }
 
