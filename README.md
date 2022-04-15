@@ -11,6 +11,8 @@ I’m interested in data entry, android app development, and full stack web deve
 
 [View My Portfolio](https://nitrotap.github.io/nitrotap/)
 
+[View My Gists](https://gist.github.com/nitrotap)
+
 Reach out to me about Java, Full Stack Web Development, and Raspberry Pi.   
 Thanks for stopping by :)
 
