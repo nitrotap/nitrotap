@@ -7,7 +7,7 @@
 
   --secondary-rgb: rgb(192, 235, 178);
 
- /* --secondary-color: #fbe1b1;*/
+  /* --secondary-color: #fbe1b1;*/
   --secondary-color: rgb(255, 255, 255);
 
   --tertiary-rgb: rgb(65, 128, 45);
@@ -119,6 +119,7 @@ header h1 a:hover {
   padding: 10px;
   transition: all .5s ease;
 }
+
 /* END header styles */
 
 /* START about me styles */
@@ -169,6 +170,7 @@ header h1 a:hover {
   width: 200px;
   height: 200px;
 }
+
 /* END about me styles */
 
 .center-title {
@@ -239,6 +241,7 @@ header h1 a:hover {
 .project-hero button:hover p {
   background-color: rgb(74, 76, 79, 0.8);
 }
+
 /* END HERO STYLES */
 
 /* START project styles */
@@ -407,6 +410,7 @@ footer div {
   /*background-color: rgb(255, 204, 141, 0.3);*/
   background-color: #14213d;
 }
+
 /* END utility styles */
 
 /* START MEDIA QUERIES */
