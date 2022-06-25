@@ -12,7 +12,11 @@ Full-stack web developer with strong analytical skills and educated at the Unive
 Reach out to me about Java, Full Stack Web Development, and Raspberry Pi at kartikinpublic@gmail.com.   
 Thanks for stopping by :)
 
-![badmath](https://img.shields.io/github/languages/top/nitrotap/nitrotap)
+
+<span align="left"> <img height='150px' src='https://github-readme-stats.vercel.app/api/top-langs/?username=nitrotap&layout=compact&theme=react ' alt="nitrotap" /> </span>
+<span align="right"> <img height='150px' src='https://github-readme-stats.vercel.app/api?username=nitrotap&show_icons=true&theme=react ' alt="nitrotap" /> </span>
+
+<p align="left"> <img src=https://komarev.com/ghpvc/?username=nitrotap alt=nitrotap/> </p>
 
 
 
