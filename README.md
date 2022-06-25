@@ -1,17 +1,13 @@
-<!---
-nitrotap/nitrotap is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
-- 💞️ I’m looking to collaborate on ...
-  --->
-
 # nitrotap
 
-Hi, I'm Kartik (@nitrotap)!   
-I’m interested in android app development and full stack web development. I’m currently enrolled in the University of Minnesota Coding Bootcamp. (Finishing June 2022)
+Hey, I'm Kartik (@nitrotap)!  
 
-[View My Portfolio](https://nitrotap.github.io/nitrotap/)
+Full-stack web developer with strong analytical skills and educated at the University of Minnesota Coding Bootcamp. Strong skills within MERN stack with emphasis on JavaScript and Progressive Web Applications. Experienced with non-profits, CRMs, and databases. Excited to apply learned skills to develop cutting-edge applications and open-source software. A self-described Tekno-junkie that loves learning new languages and is driven to build and perfect.
 
-[View My Gists](https://gist.github.com/nitrotap)
+
+[View My Portfolio](https://www.nitrotap.dev/)   
+
+[View My Gists](https://gist.github.com/nitrotap)   
 
 Reach out to me about Java, Full Stack Web Development, and Raspberry Pi at kartikinpublic@gmail.com.   
 Thanks for stopping by :)
