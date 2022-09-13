@@ -13,11 +13,6 @@ Reach out to me about Java, Full Stack Web Development, and Raspberry Pi at kart
 Thanks for stopping by :)
 
 
-<span align="left"> <img height='150px' src='https://github-readme-stats.vercel.app/api/top-langs/?username=nitrotap&layout=compact&theme=react ' alt="nitrotap" /> </span>
-<span align="right"> <img height='150px' src='https://github-readme-stats.vercel.app/api?username=nitrotap&show_icons=true&theme=react ' alt="nitrotap" /> </span>
-
-<p align="left"> <img src=https://komarev.com/ghpvc/?username=nitrotap alt=nitrotap/> </p>
-
 
 
 &copy; Kartik Jevaji
