@@ -32,7 +32,7 @@ I'm Kartik (@nitrotap), a passionate technology enthusiast and experienced softw
 
 Thanks for stopping by :)
 
-<span align="left"> <img height='150px' src='https://github-readme-stats.vercel.app/api/top-langs/?username=nitrotap&layout=compact&theme=react ' alt="nitrotap" /> </span>
-<span align="right"> <img height='150px' src='https://github-readme-stats.vercel.app/api?username=nitrotap&show_icons=true&theme=react ' alt="nitrotap" /> </span>
+![image](https://github-readme-stats.vercel.app/api?username=nitrotap&show_icons=true&theme=react)  
+![image](https://github-readme-stats.vercel.app/api/top-langs/?username=nitrotap&layout=compact&theme=react)
 
 &copy; 2023 Kartikrao Jevaji
