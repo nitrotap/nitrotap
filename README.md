@@ -21,7 +21,7 @@ Hey there! I'm Kartik (@nitrotap). My expertise spans across various programming
 
 ## LLM & API
 ![Anthropic](https://img.shields.io/badge/Anthropic-000000?logo=anthropic&logoColor=white&style=for-the-badge) ![Claude](https://img.shields.io/badge/Claude-FFB13B?logo=anthropic&logoColor=black&style=for-the-badge)   
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=for-the-badge) ![ChatGPT 4.0](https://img.shields.io/badge/ChatGPT%204.0-10A37F?logo=openai&logoColor=white&style=for-the-badge)  
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?logo=openai&logoColor=white&style=for-the-badge) ![GPT-4, o3](https://img.shields.io/badge/ChatGPT%204.0-10A37F?logo=openai&logoColor=white&style=for-the-badge)  
 ![Qwen 2.5](https://img.shields.io/badge/Qwen%202.5-0052CC?logo=qwen&logoColor=white&style=for-the-badge)
 ![Llama](https://img.shields.io/badge/Llama-FFA500?logo=llama&logoColor=white&style=for-the-badge)  
 ![Hugging Face](https://img.shields.io/badge/HuggingFace-FFD54F?logo=huggingface&logoColor=black&style=for-the-badge)
