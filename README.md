@@ -53,7 +53,4 @@ Hey there! I'm Kartik (@nitrotap). My expertise spans across various programming
 
 Thanks for stopping by :)
 
-![image](https://github-readme-stats.vercel.app/api?username=nitrotap&show_icons=true&theme=react)  
-![image](https://github-readme-stats.vercel.app/api/top-langs/?username=nitrotap&layout=compact&theme=react)
-
-&copy; 2025 Kartikrao Jevaji
+&copy; 2026 Kartikrao Jevaji
